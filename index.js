@@ -56,9 +56,6 @@ var DEFAULT_BUFFER_DURATION = 1000
  * @return {Function} middleware
  */
 
-function morgan (format, options) {
-  var fmt = format
-  var opts = options || {}
 
   if (format && typeof format === 'object') {
     opts = format
